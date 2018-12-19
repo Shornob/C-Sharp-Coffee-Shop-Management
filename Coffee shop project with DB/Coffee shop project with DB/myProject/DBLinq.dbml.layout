@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DBLinq">
+  <DataContextMoniker Name="/DBLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ba3295c3-f99f-4b3d-98b9-2782df1bac69" absoluteBounds="0.75, 0.5, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/DBLinqDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9cd1289c-2796-4bc0-b39a-0126294ca525" absoluteBounds="0.76500000000000012, 0.96, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

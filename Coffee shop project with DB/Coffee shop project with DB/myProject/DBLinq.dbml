@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database1" Class="DBLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True" SettingsObjectName="myProject.Properties.Settings" SettingsPropertyName="Database1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[Order]" Member="Orders">
+    <Type Name="Order">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Latte" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Espresso" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IcedLatte" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cappu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="African" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Rglr" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CoffeCake" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RedValvet" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BlackForest" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Boston" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Lagos" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Butter" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CostofDrinks" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CostofCakes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ServiceCharge" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Vat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SubTotal" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Total" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
